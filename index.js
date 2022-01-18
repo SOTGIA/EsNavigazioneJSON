@@ -2,6 +2,8 @@
 let jsonDoc;
 let pos;
 
+// Primo progetto caricato su git
+
 window.onload = function(){
     let json = localStorage.getItem("jsonBookstore");
     if(json!=null){
